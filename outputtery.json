@@ -1,0 +1,150 @@
+{
+    "asee.org": {
+        "http_server": "Microsoft-IIS/10.0",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "20.49.104.48"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701042956.834698
+    },
+    "auditoryneuroscience.com": {
+        "http_server": "Apache/2.4.58 (Ubuntu)",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "144.214.26.111"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701042927.2636778
+    },
+    "clocktab.com": {
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "172.67.172.37",
+            "104.21.47.194"
+        ],
+        "ipv6_addresses": [
+            "2606:4700:3036::ac43:ac25",
+            "2606:4700:3036::6815:2fc2"
+        ],
+        "scan_time": 1701042889.464438
+    },
+    "gradeinflation.com": {
+        "http_server": "nginx",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "51.79.45.180"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701043028.28663
+    },
+    "illinois.edu": {
+        "http_server": "Apache/2.2.15 (Red Hat) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "192.17.172.3"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701042822.4910982
+    },
+    "it.eecs.northwestern.edu": {
+        "http_server": "Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "129.105.5.142"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701042724.506527
+    },
+    "kellogg.northwestern.edu": {
+        "http_server": "Microsoft-IIS/10.0",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.129.72"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701042369.153985
+    },
+    "kli.org": {
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "104.21.4.169",
+            "188.114.97.3",
+            "172.67.132.72",
+            "188.114.96.3"
+        ],
+        "ipv6_addresses": [
+            "2a06:98c1:3121::3",
+            "2a06:98c1:3120::3",
+            "2606:4700:3035::ac43:8448",
+            "2606:4700:3033::6815:4a9"
+        ],
+        "scan_time": 1701043170.0496142
+    },
+    "mccormick.northwestern.edu": {
+        "http_server": "Apache/2.4.41 (Ubuntu)",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "165.124.149.20"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701042321.4678872
+    },
+    "northwestern.edu": {
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "129.105.136.48"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701042271.754143
+    },
+    "pmichaud.com": {
+        "http_server": "Apache",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "23.254.203.248"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701043141.184476
+    },
+    "spacejam.com": {
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "75.2.104.223",
+            "99.83.180.228"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701043099.5849879
+    },
+    "stevetarzia.com": {
+        "http_server": "Apache/2.4.58 () OpenSSL/1.0.2k-fips PHP/5.4.16",
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "3.143.61.245"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701042859.245146
+    },
+    "uchicago.edu": {
+        "http_server": null,
+        "insecure_http": true,
+        "ipv4_addresses": [
+            "3.215.148.80"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701042780.172456
+    },
+    "users.cs.northwestern.edu": {
+        "http_server": null,
+        "insecure_http": false,
+        "ipv4_addresses": [
+            "165.124.180.20"
+        ],
+        "ipv6_addresses": [],
+        "scan_time": 1701042417.977341
+    }
+}
