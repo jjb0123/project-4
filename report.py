@@ -35,6 +35,7 @@ def create_domain_table(data):
     return table.draw()
 
 def create_rtt_table(data):
+    #function to form the table
     table =tt.Texttable()
     table.header(['Domain', 'Min RTT (ms)', 'Max RTT (ms)'])
     sorted_data = sorted(data.items(), key=lambda x: x[1]['rtt_range'][0] if x[1]['rtt_range'] else float('inf'))
@@ -44,6 +45,7 @@ def create_rtt_table(data):
             table.add_row([domain, info['rtt_range'][0], info['rtt_range'][1]])
 
     return table.draw()
+
 
 def count_occurrences(data, key):
 

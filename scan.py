@@ -23,7 +23,7 @@ def read_dns_resolvers(file_path):
 
 #5.2
 def get_ipv4_addresses(domain, dns_resolvers_file='public_dns_resolvers.txt'):
-    dns_resolvers = read_dns_resolvers(dns_resolvers_file)
+    dns_resolvers =read_dns_resolvers(dns_resolvers_file)
 
     if not dns_resolvers:
         print("No resolvers available")
@@ -33,7 +33,7 @@ def get_ipv4_addresses(domain, dns_resolvers_file='public_dns_resolvers.txt'):
 
     for resolver in dns_resolvers:
         try:
-            result = subprocess.check_output(["nslookup", domain, resolver], timeout=2, stderr=subprocess.STDOUT).decode("utf-8")
+            result =subprocess.check_output(["nslookup", domain, resolver], timeout=2, stderr=subprocess.STDOUT).decode("utf-8")
             addresses = re.findall(r"Address: (\d+\.\d+\.\d+\.\d+)", result)
             ipv4_addresses.update(addresses)
         except subprocess.CalledProcessError as e:
@@ -105,7 +105,7 @@ def check_hsts(domain):
     try:
         response = requests.get(f"https://{domain}", timeout=5, allow_redirects=True)
         #print(response.headers)
-        return 'strict-transport-security' in response.headers
+        return 'Strict-transport-Security' in response.headers
     except requests.RequestException:
         return False
 
